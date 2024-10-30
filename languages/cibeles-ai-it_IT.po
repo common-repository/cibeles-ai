@@ -1,0 +1,482 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cibeles AI\n"
+"POT-Creation-Date: 2023-04-12 19:20+0200\n"
+"PO-Revision-Date: 2023-04-12 19:22+0200\n"
+"Last-Translator: Cibeles <soporte@cibeles.net>\n"
+"Language-Team: Cibeles <soporte@cibeles.net>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cibeles-ai.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: init.php:167
+msgid ""
+"Importante: Cibeles AI Plugin, están sin palabras y no funcionará "
+"correctamente, puede adquirir más en "
+msgstr ""
+"Importante: Cibeles AI Plugin, sono senza parole e non funzioneranno "
+"correttamente, è possibile acquistare di più in "
+
+#: js/classes/caip_Action.js:78 js/main.js:5
+msgid ""
+"Se ha quedado sin palabras disponibles, puede contratar más palabras en "
+"https://ai.cibeles.net/"
+msgstr ""
+"Hai esaurito le parole disponibili, puoi assumere più parole in https://ai."
+"cibeles.net/"
+
+#: js/classes/caip_Functions.js:50 js/classes/refrito.js:28
+#: js/classes/resumen.js:48 js/main.js:2 js/main.js:18
+msgid "Hay un problema con el edior tinyMCE, asegúrese que está en modo visual"
+msgstr ""
+"C'è un problema con l'edior tinyMCE, assicurati che sia in modalità visiva"
+
+#: js/classes/caip_ResumenP.js:8
+#, javascript-format
+msgid ""
+"Genera un resumen %s de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto: \n"
+"\n"
+msgstr ""
+"Genera un abstract %s di non più di 35 parole o 300 caratteri sul testo "
+"seguente: \n"
+"\n"
+
+#: js/classes/caip_ResumenP.js:10 js/main.js:7
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"resumen."
+msgstr "Non c'è testo o contenuto nel post con cui generare l'abstract."
+
+#: js/classes/caip_Tag.js:8
+#, javascript-format
+msgid ""
+"Una lista ordenada de %d etiquetas %s sobre en siguiente texto:\n"
+"\n"
+msgstr ""
+"Un elenco ordinato di etichette %d %s busta nel seguente testo:\n"
+"\n"
+
+#: js/classes/caip_Tag.js:13 js/main.js:8
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"tags."
+msgstr "Non c'è testo o contenuto nel post con cui generare i tag."
+
+#: js/classes/caip_Titulo.js:5 js/main.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"titulares."
+msgstr "Non c'è testo o contenuto nel post con cui generare i titoli."
+
+#: js/classes/caip_Titulo.js:13 js/main.js:13
+msgid "Generar más titulares"
+msgstr "Genera più titoli"
+
+#: js/classes/caip_Titulo.js:13 js/classes/tags.js:18 js/main.js:13
+#: js/main.js:19
+msgid "Generar más"
+msgstr "Genera di più"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Inserta el título del post"
+msgstr "Inserisci il titolo del post"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Insertar"
+msgstr "Inserire"
+
+#: js/classes/clickbait.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares estilo clickbait %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco di titoli in stile clickbait %d %s sul seguente testo: \n"
+"\n"
+
+#: js/classes/refrito.js:10
+#, javascript-format
+msgid ""
+"Reescribe con otras frases u oraciones, cambiando algunas palabras o "
+"expresiones por sinónimos, modificando el orden del sujeto y predicado, "
+"preservando las etiquetas HTML por otras semejantes, etc, %s sobre el "
+"siguiente texto: \n"
+"\n"
+msgstr ""
+"Riscrivi con altre frasi o frasi, cambiando alcune parole o espressioni con "
+"sinonimi, modificando l'ordine del soggetto e del predicato, preservando i "
+"tag HTML per quelli simili, ecc., %s sul seguente testo: \n"
+"\n"
+
+#: js/classes/refrito.js:11
+msgid ""
+"ORIGINAL: <p>Los refritos son <strong>baratos</strong> y dan visitas.</p> \n"
+"\n"
+"REESCRITO: <p>Refritar resulta <strong>económico</strong> y atrae tráfico.</"
+"p> \n"
+"\n"
+"ORIGINAL:"
+msgstr ""
+"ORIGINALE: <p>I fritti sono <strong>economici</strong> e danno visite.</p> "
+"RISCRITTO: <p>Il rehashing è <strong>economico</strong> e attira traffico.</"
+"p> ORIGINALE:"
+
+#: js/classes/refrito.js:13
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"refrito."
+msgstr "Non c'è testo o contenuto nell'input con cui generare la riscrittura."
+
+#: js/classes/refrito.js:118
+msgid "Original"
+msgstr "Originale"
+
+#: js/classes/refrito.js:119 views/buttons.php:65
+msgid "Refrito"
+msgstr "Riscritto"
+
+#: js/classes/refrito.js:146
+msgid "Refrescar original"
+msgstr "Aggiornamento originale"
+
+#: js/classes/refrito.js:147
+msgid "Generar de nuevo"
+msgstr "Ricostruire"
+
+#: js/classes/refrito.js:147 js/classes/resumen.js:20 js/main.js:16
+msgid "Regenerar"
+msgstr "Rigenerare"
+
+#: js/classes/refrito.js:148
+msgid "Reemplazar contenido de la entrada con el refrito generado"
+msgstr "Sostituire il contenuto del post con il rehash generato"
+
+#: js/classes/refrito.js:148
+msgid "Insertar contenido"
+msgstr "Inserire contenuto"
+
+#: js/classes/refrito.js:149 js/classes/resumen.js:23 js/main.js:17
+msgid "Copiar"
+msgstr "Copiare"
+
+#: js/classes/resumen.js:20 js/main.js:15
+msgid "Regenerar resumen"
+msgstr "Rigenera riepilogo"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt de la entrada"
+msgstr "Inserire nell'estratto dell'input"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt"
+msgstr "Inserisci nell'estratto"
+
+#: js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido de la entrada"
+msgstr "Inserisci all'inizio del contenuto del post"
+
+#: js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido"
+msgstr "Inserisci all'inizio del contenuto"
+
+#: js/classes/tags.js:18 js/main.js:19
+msgid "Generar más tags"
+msgstr "Genera più tag"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos los tags"
+msgstr "Inserisci tutti i tag"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos"
+msgstr "Inserisci tutto"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar los tags seleccionados"
+msgstr "Inserire i tag selezionati"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar selección"
+msgstr "Inserisci selezione"
+
+#: js/classes/titular.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco dei %d incumbent %s sul seguente testo: \n"
+"\n"
+
+#: js/classes/titularcorto.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares muy cortos %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco di %d titoli molto brevi %s sul seguente testo: \n"
+"\n"
+
+#: js/gutenberg.js:1
+msgid "Desactive el editor Gutenberg para disfrutar de Cibeles AI"
+msgstr "Disabilita l'editor Gutenberg per goderti Cibeles AI"
+
+#: js/gutenberg.js:2
+msgid "Haga click aquí"
+msgstr "Clicca qui"
+
+#: js/init_language.js:3
+msgid "__"
+msgstr "__"
+
+#: js/init_language.js:4
+msgctxt "_x_context"
+msgid "_x"
+msgstr "_x"
+
+#: js/init_language.js:5
+msgid "_n_single"
+msgid_plural "_n_plural"
+msgstr[0] "_n_single"
+msgstr[1] "_n_plural"
+
+#: js/init_language.js:6
+msgctxt "_nx_context"
+msgid "_nx_single"
+msgid_plural "_nx_plural"
+msgstr[0] "_nx_single"
+msgstr[1] "_nx_plural"
+
+#: js/main.js:7
+msgid ""
+"Genera un resumen de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto en español: \n"
+"\n"
+msgstr ""
+"Genera un abstract di non più di 35 parole o 300 caratteri sul seguente "
+"testo spagnolo: \n"
+"\n"
+
+#: js/main.js:8
+msgid ""
+"Una lista ordenada de 10 etiquetas sobre en siguiente texto:\n"
+"\n"
+msgstr ""
+"Un elenco ordinato di 10 tag di busta nel testo seguente:\n"
+"\n"
+
+#: js/main.js:15
+#, javascript-format
+msgid ""
+"Un listado de %d titulares estilo clickbait sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco di titoli in stile clickbait %d sul seguente testo: \n"
+"\n"
+
+#: js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco di %d titoli sul seguente testo: \n"
+"\n"
+
+#: js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares muy cortos sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un elenco di %d titoli molto brevi sul seguente testo: \n"
+"\n"
+
+#: options.php:19
+msgid ""
+"Asistente de redacción de entradas con inteligencia artificial para Wordpress"
+msgstr "Post writing assistant con intelligenza artificiale per Wordpress"
+
+#: options.php:27
+msgid "Seleccione una opción para el idioma"
+msgstr "Selezionare un'opzione per la lingua"
+
+#: options.php:35
+msgid "Cantidad de titulares generados"
+msgstr "Numero di titoli generati"
+
+#: options.php:43
+msgid "Cantidad de tags generados"
+msgstr "Numero di tag generati"
+
+#: options.php:62 options.php:69 options.php:77
+msgid "checked"
+msgstr "quadrettato"
+
+#: options.php:63
+msgid "Idioma del usuario en WP"
+msgstr "Lingua dell'utente in WP"
+
+#: options.php:64 options.php:71
+msgid "idioma detectado"
+msgstr "lingua rilevata"
+
+#: options.php:70
+msgid "WPML automático"
+msgstr "WPML automatico"
+
+#: options.php:78
+msgid "Idioma fijo"
+msgstr "Lingua fissa"
+
+#: options.php:110
+msgid ""
+"Configuración de Plugin de AI Cibeles - OpenAI y otros ajustes. (Uso del "
+"modelo gpt-3.5-turbo). <br /><br />Tiene gratis 50.000 palabras. <br />\n"
+"\t<strong>Palabras usadas: <span id=\"palabrasusadas\">0</span></strong> "
+"<br />\n"
+"\t<h2>Palabras disponibles: <span id=\"palabrasdisponibles\">0</span></h2> "
+"<br />\n"
+"\t"
+msgstr ""
+"Configurazione del plugin AI Cibeles - OpenAI e altre impostazioni. (Uso del "
+"modello gpt-3.5-turbo). <br /><br />Ha 50.000 parole libere. <br />\n"
+"\t<strong>Parole usate: <span id=\"palabrasusadas\">0</span></strong> <br /"
+">\n"
+"\t<h2>Parole disponibili: <span id=\"palabrasdisponibles\">0</span></h2> "
+"<br />\n"
+"\t"
+
+#: options.php:139
+msgid "Puede adquirir más palabras en"
+msgstr "Puoi acquisire più parole in"
+
+#: views/buttons.php:8
+msgid "Generación titular"
+msgstr "Generazione titolare"
+
+#: views/buttons.php:9
+msgid "Titular"
+msgstr "Titolo"
+
+#: views/buttons.php:15
+msgid "Generación titular corto"
+msgstr "Generazione di titoli brevi"
+
+#: views/buttons.php:16
+msgid "Titular corto"
+msgstr "Titolo breve"
+
+#: views/buttons.php:22
+msgid "Generación clickbait"
+msgstr "Generazione di clickbait"
+
+#: views/buttons.php:23
+msgid "Clickbait"
+msgstr "Clickbait"
+
+#: views/buttons.php:34
+msgid "Generación tags"
+msgstr "Tag di generazione"
+
+#: views/buttons.php:35
+msgid "Tags"
+msgstr "Tag"
+
+#: views/buttons.php:41
+msgid "Generación tags automática"
+msgstr "Generazione automatica dei tag"
+
+#: views/buttons.php:42
+msgid "Autotags"
+msgstr "Tag automatici"
+
+#: views/buttons.php:52
+msgid "Generación resumen"
+msgstr "Generazione riepilogativa"
+
+#: views/buttons.php:53
+msgid "Resumen"
+msgstr "Sommario"
+
+#: views/buttons.php:58
+msgid "Generación excerpt automática"
+msgstr "Generazione automatica degli estratti"
+
+#: views/buttons.php:59
+msgid "Autoexcerpt"
+msgstr "Estratto automatico"
+
+#: views/buttons.php:64
+msgid "Generación refrito"
+msgstr "Generazione rielaborata"
+
+#: views/thickbox/clickbait.php:5 views/thickbox/titular.php:5
+#: views/thickbox/titularcorto.php:5
+msgid "La generación de titulares se hace con el contenido de la entrada."
+msgstr "La generazione dei titoli viene eseguita con il contenuto della voce."
+
+#: views/thickbox/clickbait.php:6 views/thickbox/titular.php:6
+#: views/thickbox/titularcorto.php:6
+msgid "Elija uno de los siguientes titulares:"
+msgstr "Scegli uno dei seguenti titoli:"
+
+#: views/thickbox/refrito.php:5
+msgid "La generación del refrito se hace con el contenido de la entrada."
+msgstr ""
+"La generazione del rimaneggiamento viene eseguita con il contenuto della "
+"voce."
+
+#: views/thickbox/refrito.php:6
+msgid "Propuesta refrito:"
+msgstr "Proposta rimaneggiata:"
+
+#: views/thickbox/resumen.php:5
+msgid "La generación del resumen se hace con el contenido de la entrada."
+msgstr ""
+"La generazione del riassunto viene eseguita con il contenuto della voce."
+
+#: views/thickbox/tags.php:5
+msgid "La generación de tags se hace con el contenido de la entrada."
+msgstr "La generazione dei tag viene eseguita con il contenuto del post."
+
+#: views/thickbox/tags.php:6
+msgid "Elija entre los siguientes tags:"
+msgstr "Scegli tra i seguenti tag:"
+
+#. Plugin Name of the plugin/theme
+msgid "Cibeles AI"
+msgstr "Cibeles AI"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ai.cibeles.net/"
+msgstr "https://ai.cibeles.net/"
+
+#. Description of the plugin/theme
+msgid ""
+"Asistente de redacción de entradas de inteligencia artificial para Wordpress "
+"hecho por cibeles.net"
+msgstr ""
+"Artificial Intelligence Post Writing Assistant per Wordpress realizzato da "
+"cibeles.net"
+
+#. Author of the plugin/theme
+msgid "Cibeles.net"
+msgstr "Cibeles.net"
+
+#. Author URI of the plugin/theme
+msgid "https://www.cibeles.net/"
+msgstr "https://www.cibeles.net/"

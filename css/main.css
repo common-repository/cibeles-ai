@@ -1,0 +1,327 @@
+table.options-cibelesai td{
+	padding:0px;
+}
+
+.cibelesAi_button {
+    background: #2271b1;
+    border: 0px solid #db8e15;
+    padding: 7px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    float: left;
+    margin: 10px;
+    margin-left: 0;
+	padding-top: 3px;
+    padding-bottom: 3px;
+}
+.cibelesAi_button:hover {
+    /* background: #db8e15; */
+	background: #135e96;
+}
+.cibelesAi_button a {
+    font-size: 13px;
+    text-decoration: none;
+	color: #f9f9f9;
+}
+.cibelesAi_button a:hover {
+    color: #f9f9f9;
+}
+
+.cibelesAi_button i{
+	margin-left: 5px;
+	font-size: 14px;
+} 
+
+#div_group_button_tagsdiv{
+	position: relative;
+	display: flex;
+}
+#div_group_button_postdiv{
+	display: inline-block;
+}
+#div_button_resumen,
+#div_button_introduccion,
+#div_button_conclusion,
+#div_button_autoexcerpt,
+#div_button_refrito,
+#div_button_corrector,
+#div_button_youtube,
+#div_button_cifras,
+#div_button_cronologia,
+#div_button_faq,
+#div_button_audio{
+	margin-bottom: 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.corrector span.caip_blue {
+    color: blue;
+    font-weight: 500;
+}
+
+.result .Left,
+.result .Right{
+	padding:10px;
+}
+.result .containerLeft,
+.result .containerRight{
+	width: 50%;
+    float: left;
+}
+
+.result .containerLeft:before,
+.result .containerRight:before {
+    font-size: large;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.result.tags .tag.existe:before {
+    content: '✓';
+    margin-right: 10px;
+    color: green;
+    font-weight: bolder;
+}
+.result.tags .tag.existe.selected:before {
+     color: white;
+}
+.result.tags .tag.existe {
+     border-color: green;
+}
+
+.result.tags {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.result.tags .tag {
+	border: 2px solid #888;
+    display: inline-flex;
+    border-radius: 9px;
+    padding: 4px;
+    margin: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+.result.tags .tag:hover {
+	background: #bbb;
+	border: 2px solid #bbb;
+    color: white;
+}
+.result.tags .tag.selected{
+	background: #888;
+    color: white;
+}
+.cibelesAiView{
+}
+
+body #TB_window{
+	height:100%;
+	width:100%;
+	/*
+	max-height:800px;
+	max-width:800px; 
+	*/
+	overflow: auto;
+}
+body #TB_window #TB_ajaxContent{
+	width: initial !important;
+    height: initial !important;
+}
+
+#TB_window .result .titular,
+#TB_window .result .resumenText,
+#TB_window .result .youtubeText,
+#TB_window .result .introduccionText,
+#TB_window .result .conclusionText{
+    padding: 10px;
+    margin-top: 10px;
+    background: #f6f7f7;
+    border-radius: 7px;
+    border: 1px #e2e5e8 solid;
+}
+
+#TB_window .result  {
+    margin-top: 23px;
+}
+#TB_window .more.center {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+
+#TB_window  .cibelesAi_button{
+	cursor:pointer;
+}
+
+#TB_window .more.center .cibelesAi_button{
+	float: initial;
+	display: inherit;
+	margin-top: 23px;
+	
+	
+}
+#TB_window .insert .cibelesAi_button{
+	margin: 0;
+	margin-right: 10px;
+	margin-top: -3px;
+}   
+
+
+#TB_window .result #loadingDiv {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+	margin-top: 23px;
+    margin-bottom: 23px;
+    display: none;
+}
+
+#TB_window .result .loading-indicator {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.CAIP_audioStep .descriptionOptions {
+    display: flex;
+    padding-top: 11px;
+}
+
+
+#TB_window .CAIP_audioStep .audioBoxDesc{
+	text-align: center;width: 80%;margin: auto;background: #f0f0f1;font-size: 12px; padding: 11px;color: #646970;
+}
+
+
+#TB_window .CAIP_audioStep .audioBoxDesc{
+	text-align: center;width: 80%;margin: auto;background: #f0f0f1;font-size: 12px; padding: 11px;color: #646970;
+}
+
+#TB_window .CAIP_audioStep .file-upload {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+}
+
+
+.CAIP_audioStep input[type="file"] {
+    background-color: #2271b1; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    height: 31px; 
+	margin-bottom: 36px;
+    margin-top: 10px;
+	width: 100%;
+	font-size: 14px;
+	line-height: 23px;
+	
+}
+
+ .CAIP_audioStep a#subiraudiofile,
+.CAIP_audioStep a#subirTranscripcion {
+    background-color: #2271b1; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 4px 12px; /* Relleno para ajustar visualmente el tamaño */
+    border: none; /* No mostrar borde */
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 14px; /* Tamaño de texto */
+    height: 24px; /* Altura especificada */
+    line-height: 1.5; /* Ajuste de la línea para alinear el texto verticalmente */
+    cursor: pointer; /* Cursor en forma de mano al pasar el mouse */
+    text-decoration: none; /* Sin subrayado en el enlace */
+    outline: none; /* Evitar el borde al enfocar el elemento */
+    display: inline-block; /* Asegura que los elementos se comporten como bloques en línea */
+    vertical-align: middle; /* Alineación vertical para que coincidan */
+}
+
+/* Estilo para el input de archivo, específicamente para esconder el texto por defecto */
+.CAIP_audioStep input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden; /* Esconde el botón por defecto */
+}
+.CAIP_audioStep input[type="file"]::before {
+    content: 'Seleccionar archivo';
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2271b1;
+    background: white;
+    margin-left: 3px;
+    padding-bottom: 6px;
+    height: 15px;
+	line-height: 17px;
+    font-size: 13px;
+	position: absolute;
+}
+
+/* Hover effects para ambos */
+.CAIP_audioStep input[type="file"]:hover::before {
+    background-color: #f0f0f1; 
+}
+.CAIP_audioStep a#subiraudiofile:hover,
+.CAIP_audioStep a#subirTranscripcion {
+    background-color: #1e5a90; 
+}
+/* Asegurar que el texto del enlace no se desborde o desalinee */
+.CAIP_audioStep a#subiraudiofile,
+.CAIP_audioStep a#subirTranscripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CAIP_audioStep textarea#transcripcion {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 150px;
+	margin-bottom: 10px;
+}
+
+
+.CAIP_audioStep a#copiarTranscripcion,
+.CAIP_audioStep a#copiarArticulo {
+    float: right;
+    margin-top: 12px;
+    position: absolute;
+    right: 23px;
+	cursor: pointer;
+}
+
+.CAIP_audioStep .result.article {
+    margin: auto;
+    background: #f7f7f7;
+    padding-left: 20px;
+    padding-right: 24px;
+    padding-top: 8px;
+    border-radius: 13px;
+    text-align: left;
+	padding-bottom: 20px;
+
+}
+
+#TB_window .result.article {
+    margin-top: 13px;
+}

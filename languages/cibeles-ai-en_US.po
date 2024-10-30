@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cibeles AI\n"
+"POT-Creation-Date: 2023-06-01 13:57+0200\n"
+"PO-Revision-Date: 2023-06-01 14:00+0200\n"
+"Last-Translator: Cibeles <soporte@cibeles.net>\n"
+"Language-Team: Cibeles <soporte@cibeles.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cibeles-ai.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: init.php:203
+msgid ""
+"Importante: Cibeles AI Plugin, están sin palabras y no funcionará "
+"correctamente, puede adquirir más en "
+msgstr ""
+"Important: Cibeles AI Plugin, they are speechless and will not work "
+"correctly, you can purchase more at "
+
+#: js/classes/caip_Action.js:85 js/classes/youtube.js:119 js/main.js:5
+msgid ""
+"Se ha quedado sin palabras disponibles, puede contratar más palabras en "
+"https://ai.cibeles.net/"
+msgstr ""
+"You have run out of available words, you can hire more words at https://ai."
+"cibeles.net/"
+
+#: js/classes/caip_Functions.js:50 js/classes/caip_Multiaction.js:32
+#: js/classes/corrector.js:64 js/main.js:2 js/main.js:18
+msgid "Hay un problema con el edior tinyMCE, asegúrese que está en modo visual"
+msgstr ""
+"There is a problem with the tinyMCE editor, make sure you are in visual mode"
+
+#: js/classes/caip_Multiaction.js:132
+msgid "Refrescar original"
+msgstr "Refresh Original"
+
+#: js/classes/caip_Multiaction.js:133
+msgid "Generar de nuevo"
+msgstr "Regenerate again"
+
+#: js/classes/caip_Multiaction.js:133 js/classes/conclusion.js:22
+#: js/classes/introduccion.js:22 js/classes/resumen.js:20
+#: js/classes/youtube.js:24 js/main.js:16
+msgid "Regenerar"
+msgstr "Regenerate"
+
+#: js/classes/caip_Multiaction.js:134 js/classes/conclusion.js:24
+#: js/classes/introduccion.js:24 js/classes/resumen.js:23
+#: js/classes/youtube.js:28 js/main.js:17
+msgid "Copiar"
+msgstr "Copy"
+
+#: js/classes/caip_Multiaction.js:135
+msgid "Reemplazar contenido de la entrada con el generado"
+msgstr "Replace post content with generated rewrited"
+
+#: js/classes/caip_Multiaction.js:135
+msgid "Insertar contenido"
+msgstr "Insert content"
+
+#: js/classes/caip_ResumenP.js:8
+#, javascript-format
+msgid ""
+"Genera un resumen %s de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto: \n"
+"\n"
+msgstr ""
+"Generate a summary  %s of no more than 35 words or 300 characters on the "
+"following text:\n"
+"\n"
+
+#: js/classes/caip_ResumenP.js:10 js/main.js:7
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"resumen."
+msgstr ""
+"There is no text or content in the entry with which to generate the summary."
+
+#: js/classes/caip_Tag.js:8
+#, javascript-format
+msgid ""
+"Una lista ordenada de %d etiquetas o tags breves y sus variantes %s de "
+"caracter general a modo de categoría como por ejemplo empresas, marcas, "
+"personajes, lugares, objetos, alimentos, temáticas, instituciones, eventos, "
+"acciones, tecnologías, etc, que ayuden a clasificar el siguiente texto:\n"
+"\n"
+msgstr ""
+"An ordered list of %d tags or brief tags and their variants %s of a general "
+"nature as a category such as companies, brands, characters, places, objects, "
+"food, themes, institutions, events, actions, technologies, etc., that help "
+"classify the following text:\n"
+"\n"
+
+#: js/classes/caip_Tag.js:13 js/main.js:8
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"tags."
+msgstr ""
+"There is no text or content in the post with which to generate the tags."
+
+#: js/classes/caip_Titulo.js:5 js/main.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"titulares."
+msgstr ""
+"There is no text or content in the post with which to generate the titles."
+
+#: js/classes/caip_Titulo.js:13 js/main.js:13
+msgid "Generar más titulares"
+msgstr "Generate more titles"
+
+#: js/classes/caip_Titulo.js:13 js/classes/tags.js:18 js/main.js:13
+#: js/main.js:19
+msgid "Generar más"
+msgstr "Generate more"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Inserta el título del post"
+msgstr "Insert the title of the post"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Insertar"
+msgstr "Insert"
+
+#: js/classes/clickbait.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares estilo clickbait %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d clickbait style headlines %s over the following text: \n"
+"\n"
+
+#: js/classes/conclusion.js:10
+#, javascript-format
+msgid ""
+"Genera un texto de conclusión %s de no más de 70 palabras o 600 caracteres "
+"sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Generate a conclusion %s of no more than 70 words or 600 characters on the "
+"following text:\n"
+"\n"
+
+#: js/classes/conclusion.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar la "
+"conclusión."
+msgstr ""
+"There is no text or content in the entry with which to generate the "
+"conclusion."
+
+#: js/classes/conclusion.js:22
+msgid "Regenerar conclusión"
+msgstr "Regenerate conclusion"
+
+#: js/classes/conclusion.js:23
+msgid "Insertar al final del contenido de la entrada"
+msgstr "Insert at the end of the post content"
+
+#: js/classes/conclusion.js:23
+msgid "Insertar al final del contenido"
+msgstr "Insert at the end of the content"
+
+#: js/classes/conclusion.js:44 js/classes/introduccion.js:44
+#: js/classes/resumen.js:48 js/classes/youtube.js:77 js/classes/youtube.js:97
+msgid ""
+"Hay un problema con el editor tinyMCE, asegúrese que está en modo visual"
+msgstr ""
+"There is a problem with the tinyMCE editor, make sure you are in visual mode"
+
+#: js/classes/corrector.js:11
+#, javascript-format
+msgid ""
+"Corrige %s el siguiente texto: \n"
+"\n"
+msgstr ""
+"Correct %s the following text: \n"
+"\n"
+
+#: js/classes/corrector.js:12
+msgid ""
+"TEXTO: <p>Un texto puede estar correctamente escrito.</p>\n"
+"CORRECIÓN: <p>Un texto puede estar correctamente escrito.</p>%r\n"
+"\n"
+"TEXTO: <p>Estoy aciendo una <strong>prueba</strong>.</p>\n"
+"CORRECIÓN: <p>Estoy haciendo una <strong>prueba</strong>.</p>\n"
+"\n"
+"TEXTO: <p>A veces puedes acer faltás.</p>\n"
+"CORRECIÓN: <p>A veces puedes hacer faltas.</p>\n"
+"\n"
+"TEXTO: <p>El texto puede estar perfectamente escrito.</p>\n"
+"CORRECIÓN: <p>El texto puede estar perfectamente escrito.</p> %r\n"
+"\n"
+"TEXTO: <p>Juan come porke tiene ambre.</p>\n"
+"CORRECIÓN: <p>Juan come porque tiene hambre.</p>\n"
+"\n"
+"TEXTO: "
+msgstr ""
+"TEXT: <p>A text can be correctly written.</p>\n"
+"CORRECTION: <p>A text can be correctly written.</p>%r\n"
+"\n"
+"TEXT: <p>I'm doin a <strong>test</strong>.</p>\n"
+"CORRECTION: <p>I'm doing a <strong>test</strong>.</p>\n"
+"\n"
+"TEXT: <p>Sometime you can be wron.</p>\n"
+"CORRECTION: <p>Sometimes you can be wrong.</p>\n"
+"\n"
+"TEXT: <p>The text can be perfectly written.</p>\n"
+"CORRECTION: <p>The text can be perfectly written.</p> %r\n"
+"\n"
+"TEXT: <p>Juan eat vecause he is hungry.</p>\n"
+"CORRECTION: <p> Juan eats because he is hungry. </ P>\n"
+"\n"
+"TEXT: "
+
+#: js/classes/corrector.js:13
+msgid ""
+"\n"
+"CORRECIÓN: "
+msgstr ""
+"\n"
+"CORRECTION: "
+
+#: js/classes/corrector.js:15
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar una "
+"corrección."
+msgstr ""
+"There is no text or content in the entry with which to generate the "
+"correction."
+
+#: js/classes/corrector.js:18 js/classes/refrito.js:15
+msgid "Original"
+msgstr "Original"
+
+#: js/classes/corrector.js:19
+msgid "Corregido"
+msgstr "Corrected"
+
+#: js/classes/introduccion.js:10
+#, javascript-format
+msgid ""
+"Genera un texto de introducción %s de no más de 70 palabras o 600 caracteres "
+"sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Generate a introduction %s of no more than 70 words or 600 characters on the "
+"following text:\n"
+"\n"
+
+#: js/classes/introduccion.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar la "
+"introducción."
+msgstr ""
+"There is no text or content in the entry with which to generate the "
+"introduction."
+
+#: js/classes/introduccion.js:22
+msgid "Regenerar introducción"
+msgstr "Regenerate introduction"
+
+#: js/classes/introduccion.js:23 js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido de la entrada"
+msgstr "Insert at the beginning of the post content"
+
+#: js/classes/introduccion.js:23 js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido"
+msgstr "Insert at the beginning of the content"
+
+#: js/classes/refrito.js:8
+#, javascript-format
+msgid ""
+"Reescribe con otras frases u oraciones, reemplazando palabras o expresiones "
+"por sinónimos y cambiando el orden del sujeto y predicado, preservando las "
+"etiquetas HTML por otras semejantes, etc, %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Rewrite with other phrases or sentences, changing some words or expressions "
+"for synonyms, modifying the order of the subject and predicate, preserving "
+"the HTML tags for other similar ones, etc, %s, on the following text: \n"
+"\n"
+
+#: js/classes/refrito.js:9
+msgid ""
+"ORIGINAL: <p>Los refritos son <strong>baratos</strong> y dan visitas.</p> \n"
+"REESCRITO: <p>Refritar resulta <strong>económico</strong> y atrae tráfico.</"
+"p> \n"
+"\n"
+"ORIGINAL:"
+msgstr ""
+"ORIGINAL: <p>Rewrites are <strong>cheap</strong> and make visits to your "
+"website.</p> \n"
+"\n"
+"REWRITED: <p>Rewriting means <strong>economic</strong> and attracts visitors "
+"and traffic.</p> \n"
+"\n"
+"ORIGINAL:"
+
+#: js/classes/refrito.js:10
+msgid ""
+"\n"
+"REESCRITO: "
+msgstr ""
+"\n"
+"REWRITTEN: "
+
+#: js/classes/refrito.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"refrito."
+msgstr ""
+"There is no text or content in the entry with which to generate the rewrite."
+
+#: js/classes/refrito.js:16 options.php:261 views/buttons.php:93
+msgid "Refrito"
+msgstr "Rewrited"
+
+#: js/classes/resumen.js:20 js/classes/youtube.js:24 js/main.js:15
+msgid "Regenerar resumen"
+msgstr "Regenerate Summary"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt de la entrada"
+msgstr "Insert into excerpt of post"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt"
+msgstr "Insert into excerpt"
+
+#: js/classes/tags.js:18 js/main.js:19
+msgid "Generar más tags"
+msgstr "Generate more tags"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos los tags"
+msgstr "Insert all the tags"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos"
+msgstr "Insert all"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar los tags seleccionados"
+msgstr "Insert selected tags"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar selección"
+msgstr "Insert selected"
+
+#: js/classes/titular.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d headlines  %s over the following text: \n"
+"\n"
+
+#: js/classes/titularcorto.js:10
+#, javascript-format
+msgid ""
+"Un listado de %d titulares muy cortos %s sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d very short headlines %s  based on the following text: \n"
+"\n"
+
+#: js/classes/youtube.js:14
+#, javascript-format
+msgid ""
+"Genera el texto de una noticia %s lo más extensa posible con los siguientes "
+"datos obtenidos de un video de Youtube:\n"
+"\n"
+msgstr ""
+"Generate the text of a news %s as long as possible with the following data "
+"obtained from a Youtube video:\n"
+"\n"
+
+#: js/classes/youtube.js:26
+msgid "Insertar titular al principio del contenido de la entrada"
+msgstr "Insert title at the beginning of the post content"
+
+#: js/classes/youtube.js:26
+msgid "Insertar titular"
+msgstr "Insert title"
+
+#: js/classes/youtube.js:27
+msgid "Insertar noticia al principio del contenido de la entrada"
+msgstr "Insert news at the beginning of the post content"
+
+#: js/classes/youtube.js:27
+msgid "Insertar noticia al principio del contenido"
+msgstr "Insert news at the beginning of the content"
+
+#: js/classes/youtube.js:37
+msgid "Introduzca una URL de un video de Youtube"
+msgstr "Enter a URL of a Youtube video"
+
+#: js/classes/youtube.js:62
+msgid "Noticia generada: "
+msgstr "News generated: "
+
+#: js/gutenberg.js:1
+msgid "Desactive el editor Gutenberg para disfrutar de Cibeles AI"
+msgstr "Disable the Gutenberg editor to enjoy Cibeles AI"
+
+#: js/gutenberg.js:2
+msgid "Haga click aquí"
+msgstr "Click here"
+
+#: js/init_language.js:3
+msgid "__"
+msgstr "__"
+
+#: js/init_language.js:4
+msgctxt "_x_context"
+msgid "_x"
+msgstr "_x"
+
+#: js/init_language.js:5
+msgid "_n_single"
+msgid_plural "_n_plural"
+msgstr[0] "_n_single"
+msgstr[1] "_n_plural"
+
+#: js/init_language.js:6
+msgctxt "_nx_context"
+msgid "_nx_single"
+msgid_plural "_nx_plural"
+msgstr[0] "_nx_single"
+msgstr[1] "_nx_plural"
+
+#: js/main.js:7
+msgid ""
+"Genera un resumen de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto en español: \n"
+"\n"
+msgstr ""
+"Generate a summary of no more than 35 words or 300 characters on the "
+"following text in Spanish:\n"
+"\n"
+
+#: js/main.js:8
+msgid ""
+"Una lista ordenada de 10 etiquetas sobre en siguiente texto:\n"
+"\n"
+msgstr ""
+"An ordered list of %d tags based on the following text: \n"
+"\n"
+
+#: js/main.js:15
+#, javascript-format
+msgid ""
+"Un listado de %d titulares estilo clickbait sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d clickbait style headlines over the following text: \n"
+"\n"
+
+#: js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d headlines over the following text: \n"
+"\n"
+
+#: js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares muy cortos sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"A list of %d very short headlines  based on the following text: \n"
+"\n"
+
+#: options.php:19
+msgid ""
+"Asistente de redacción de entradas con inteligencia artificial para Wordpress"
+msgstr "Artificial Intelligence Post Writing Assistant for Wordpress"
+
+#: options.php:27
+msgid "Seleccione una opción para el idioma"
+msgstr "Choose an option for language"
+
+#: options.php:35
+msgid "Cantidad de titulares generados"
+msgstr "Number of headlines generated"
+
+#: options.php:43
+msgid "Cantidad de tags generados"
+msgstr "Number of tags generated"
+
+#: options.php:51
+msgid "Funciones habilitadas"
+msgstr "Enabled features"
+
+#: options.php:70 options.php:77 options.php:85
+msgid "checked"
+msgstr "checked"
+
+#: options.php:71
+msgid "Idioma del usuario en WP"
+msgstr "User language setting in WP"
+
+#: options.php:72 options.php:79
+msgid "idioma detectado"
+msgstr "language detected"
+
+#: options.php:78
+msgid "WPML automático"
+msgstr "Auto WPML"
+
+#: options.php:86
+msgid "Idioma fijo"
+msgstr "Defined language"
+
+#: options.php:132 views/buttons.php:11
+msgid "Generación titular"
+msgstr "Title generation"
+
+#: options.php:133 views/buttons.php:12
+msgid "Titular"
+msgstr "Title"
+
+#: options.php:146 views/buttons.php:19
+msgid "Generación titular corto"
+msgstr "Short title generation"
+
+#: options.php:147 views/buttons.php:20
+msgid "Titular corto"
+msgstr "Short title"
+
+#: options.php:160 views/buttons.php:27
+msgid "Generación clickbait"
+msgstr "Clickbait generation"
+
+#: options.php:161 views/buttons.php:28
+msgid "Clickbait"
+msgstr "Clickbait"
+
+#: options.php:175 views/buttons.php:40
+msgid "Generación tags"
+msgstr "Tags generation"
+
+#: options.php:176 views/buttons.php:41
+msgid "Tags"
+msgstr "Tags"
+
+#: options.php:189 views/buttons.php:48
+msgid "Generación tags automática"
+msgstr "Tags generation"
+
+#: options.php:190 views/buttons.php:49
+msgid "Autotags"
+msgstr "Autotags"
+
+#: options.php:204 views/buttons.php:60
+msgid "Generación resumen"
+msgstr "Summary generation"
+
+#: options.php:205 views/buttons.php:61
+msgid "Resumen"
+msgstr "Summary"
+
+#: options.php:218 views/buttons.php:68
+msgid "Generación excerpt automática"
+msgstr "Automatic excerpt generation"
+
+#: options.php:219 views/buttons.php:69
+msgid "Autoexcerpt"
+msgstr "Autoexcerpt"
+
+#: options.php:232 views/buttons.php:76
+msgid "Generación introducción"
+msgstr "Introduction generation"
+
+#: options.php:233 views/buttons.php:77
+msgid "Introducción"
+msgstr "Introduction"
+
+#: options.php:246 views/buttons.php:84
+msgid "Generación conclusión"
+msgstr "Conclusion generation"
+
+#: options.php:247 views/buttons.php:85
+msgid "Conclusión"
+msgstr "Conclusion"
+
+#: options.php:260 views/buttons.php:92
+msgid "Generación refrito"
+msgstr "Rewrite generation"
+
+#: options.php:274 views/buttons.php:100
+msgid "Corrección de ortografía, sintaxis y semántica"
+msgstr "Correction of spelling, syntax and semantics"
+
+#: options.php:275 views/buttons.php:101
+msgid "Corrector"
+msgstr "Correct"
+
+#: options.php:288
+msgid "Creación de una noticia a partir de un video de Youtube"
+msgstr "Creating a news item from a Youtube video"
+
+#: options.php:289 views/buttons.php:108 views/buttons.php:109
+msgid "Youtube"
+msgstr "Youtube"
+
+#: options.php:302
+msgid ""
+"Configuración de Plugin de AI Cibeles - OpenAI y otros ajustes. (Uso del "
+"modelo gpt-3.5-turbo). <br /><br />Tiene gratis 50.000 palabras. <br />\n"
+"\t<strong>Palabras usadas: <span id=\"palabrasusadas\">0</span></strong> "
+"<br />\n"
+"\t<h2>Palabras disponibles: <span id=\"palabrasdisponibles\">0</span></h2> "
+"<br />\n"
+"\t"
+msgstr ""
+"AI Cibeles Plugin Configuration - OpenAI and other settings. (Use of gpt-3.5-"
+"turbo model).<br /><br /> You have 50,000 free words. <br />\n"
+"\t<strong>Used words: <span id=\"palabrasusadas\">0</span></strong> <br />\n"
+"\t<h2>Available words: <span id=\"palabrasdisponibles\">0</span></h2> <br /"
+">\n"
+"\t. "
+
+#: options.php:331
+msgid "Puede adquirir más palabras en"
+msgstr "You can acquire more words in"
+
+#: views/thickbox/clickbait.php:5 views/thickbox/titular.php:5
+#: views/thickbox/titularcorto.php:5
+msgid "La generación de titulares se hace con el contenido de la entrada."
+msgstr "The generation of headlines is done with the content of the post."
+
+#: views/thickbox/clickbait.php:6 views/thickbox/titular.php:6
+#: views/thickbox/titularcorto.php:6
+msgid "Elija uno de los siguientes titulares:"
+msgstr "Choose one of the following headlines:"
+
+#: views/thickbox/conclusion.php:5
+msgid "La generación de la conclusión se hace con el contenido de la entrada."
+msgstr ""
+"The generation of the conclusión is done with the content of the entry."
+
+#: views/thickbox/corrector.php:5
+msgid "La generación de la corrección se hace con el contenido de la entrada."
+msgstr "The generation of the summary is done with the content of the entry."
+
+#: views/thickbox/corrector.php:6
+msgid "Propuesta de corrección:"
+msgstr "Correction proposal:"
+
+#: views/thickbox/introduccion.php:5
+msgid ""
+"La generación de la introducción se hace con el contenido de la entrada."
+msgstr ""
+"The generation of the introduction is done with the content of the entry."
+
+#: views/thickbox/refrito.php:5
+msgid "La generación del refrito se hace con el contenido de la entrada."
+msgstr "The generation of the rewrite  is done with the content of the entry."
+
+#: views/thickbox/refrito.php:6
+msgid "Propuesta refrito:"
+msgstr "Rewritten proposal:"
+
+#: views/thickbox/resumen.php:5
+msgid "La generación del resumen se hace con el contenido de la entrada."
+msgstr "The generation of the summary is done with the content of the entry."
+
+#: views/thickbox/tags.php:5
+msgid ""
+"La generación de tags se hace con el contenido de la entrada. Los tags que "
+"ya existen en mi sistema, aparecerán marcados en un check <span "
+"style=\"color:green;\"> verde <strong>✓</strong> </span>."
+msgstr ""
+"The generation of tags is done with the content of the entry. Tags that "
+"already exist in my system will be marked with a <span style=\"color:green;"
+"\"> green <strong>✓</strong> </span> check."
+
+#: views/thickbox/tags.php:6
+msgid "Elija entre los siguientes tags:"
+msgstr "Choose from the following tags:"
+
+#: views/thickbox/youtube.php:5
+msgid "Genera una noticia a partir de un video de Youtube."
+msgstr "Generate a news item from a Youtube video."
+
+#: views/thickbox/youtube.php:8
+msgid ""
+"Se obtendrá el <strong>título</strong>, la <strong>descripción</strong> y "
+"los <strong>subtítulos</strong> o transcripción del video si existe."
+msgstr ""
+"Generation will get the <strong>title</strong>, <strong>description</strong> "
+"and <strong>subtitles</strong> or transcript of the video if it exists."
+
+#: views/thickbox/youtube.php:11
+msgid ""
+"Tenga paciencia, este proceso puede durar desde unos segundos a varios "
+"minutos, dependiendo principalmente de la longitud de los subtítulos, ya que "
+"si son muy extensos se produciran consultas adicionales de resumen."
+msgstr ""
+"Be patient, this process can last from a few seconds to several minutes, "
+"depending mainly on the length of the subtitles, since if they are very "
+"extensive additional summary queries will occur."
+
+#: views/thickbox/youtube.php:14
+msgid "<strong>Introduzca la URL</strong> del video de Youtube"
+msgstr "<strong>Enter Youtube video URL</strong>"
+
+#. Plugin Name of the plugin/theme
+msgid "Cibeles AI"
+msgstr "Cibeles AI"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ai.cibeles.net/"
+msgstr "https://www.cibeles.net/"
+
+#. Description of the plugin/theme
+msgid ""
+"Asistente de redacción de entradas de inteligencia artificial para Wordpress "
+"hecho por cibeles.net"
+msgstr "Artificial Intelligence Post Writing Assistant for Wordpress"
+
+#. Author of the plugin/theme
+msgid "Cibeles.net"
+msgstr "Cibeles.net"
+
+#. Author URI of the plugin/theme
+msgid "https://www.cibeles.net/"
+msgstr "https://www.cibeles.net/"
+
+#, javascript-format
+#~ msgid ""
+#~ "Una lista ordenada de %d etiquetas %s sobre en siguiente texto:\n"
+#~ "\n"
+#~ msgstr ""
+#~ "An ordered list of %d tag  %ss based on the following text: \n"
+#~ "\n"
+
+#~ msgid "La generación de tags se hace con el contenido de la entrada."
+#~ msgstr "The generation of tags is done with the content of the entry."
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares estilo clickbait sobre el siguiente texto "
+#~ "%s: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of %d clickbait style headlines over the following text %s: \n"
+#~ "\n"
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares sobre el siguiente texto %s: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of %d headlines over the following text %s: \n"
+#~ "\n"
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares muy cortos sobre el siguiente texto %s: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of %d very short headlines  based on the following text %s: \n"
+#~ "\n"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid ""
+#~ "Configuración de conexión de la API de Cibeles-OpenAI y otros ajustes. "
+#~ "(Uso del modelo text-davinci-003)."
+#~ msgstr ""
+#~ "Cibeles-OpenAI API connection configuration and other settings. (Use of "
+#~ "the text-davinci-003 model)."
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares muy largos o extensos sobre el siguiente "
+#~ "texto: \n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of %d very long or extensive headlines based on the following "
+#~ "text: \n"
+#~ "\n"
+
+#~ msgid "Stop Sequence"
+#~ msgstr "Secuencia de parada"
+
+#~ msgid "API KEY"
+#~ msgstr "API KEY"
+
+#~ msgid "Disculpe, existió un problema o el texto no puede ser vacío"
+#~ msgstr "Sorry, there was a problem or the text cannot be empty"
+
+#~ msgid "Selecciona este tag"
+#~ msgstr "Select this tag"
+
+#~ msgid "Seleccionar"
+#~ msgstr "Select"
+
+#~ msgid "Cancela la inserción de tags"
+#~ msgstr "Cancel tag insertion"
+
+#~ msgid "Cancelar"
+#~ msgstr "Cancel"
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares de 15 palabras sobre el siguiente texto: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of %d  headlines  of 15 words each based on the following text: \n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Un listado de 5 titulares de 10 palabras cada uno sobre el siguiente "
+#~ "texto: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of 5 headlines of 10 words each on the following text: \n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Un listado de 5 titulares estilo informal clickbait sobre el siguiente "
+#~ "texto: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "A list of 5 informal clickbait style headlines on the following text: \n"
+#~ "\n"
+
+#~ msgid "Un listado de "
+#~ msgstr "A list of "
+
+#~ msgid ""
+#~ "No hay ningún texto o contenido en la entrada con la que poder generar un "
+#~ "resumen o entradilla."
+#~ msgstr ""
+#~ "There is no text or content in the post with which to generate a summary "
+#~ "or entry."
+
+#~ msgid "Haciendo una prueba"
+#~ msgstr "Taking a test"
+
+#~ msgid "Haciendo otra prueba"
+#~ msgstr "Taking another test"
+
+#~ msgid "Funciona o qué?"
+#~ msgstr "Does it work or what?"
+
+#~ msgid "Today's motivation"
+#~ msgstr "Today's motivation"
+
+#~ msgid "TITULAR"
+#~ msgstr "Title"
+
+#~ msgid ""
+#~ "Asistente de redacción de artículos de inteligencia artificial para "
+#~ "Wordpress."
+#~ msgstr "Artificial Intelligence Post Writing Assistant for Wordpress."
+
+#~ msgid "Settings field description"
+#~ msgstr "Settings field description"
+
+#~ msgid "This section description"
+#~ msgstr "This section description"

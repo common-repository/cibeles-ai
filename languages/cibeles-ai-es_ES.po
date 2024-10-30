@@ -1,0 +1,408 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cibeles AI\n"
+"POT-Creation-Date: 2023-03-21 11:42+0100\n"
+"PO-Revision-Date: 2023-03-21 11:46+0100\n"
+"Last-Translator: Cibeles <soporte@cibeles.net>\n"
+"Language-Team: Cibeles <soporte@cibeles.net>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cibeles-ai.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: init.php:143
+msgid ""
+"Importante: Cibeles AI Plugin, están sin palabras y no funcionará "
+"correctamente, puede adquirir más en "
+msgstr ""
+"Importante: Cibeles AI Plugin, están sin palabras y no funcionará "
+"correctamente, puede adquirir más en "
+
+#: js/classes/caip_Action.js:76 js/main.js:5
+msgid ""
+"Se ha quedado sin palabras disponibles, puede contratar más palabras en "
+"https://ai.cibeles.net/"
+msgstr ""
+"Se ha quedado sin palabras disponibles, puede contratar más palabras en "
+"https://ai.cibeles.net/"
+
+#: js/classes/caip_Functions.js:45 js/classes/resumen.js:48 js/main.js:2
+#: js/main.js:18
+msgid "Hay un problema con el edior tinyMCE, asegúrese que está en modo visual"
+msgstr ""
+"Hay un problema con el edior tinyMCE, asegúrese que está en modo visual"
+
+#: js/classes/caip_ResumenP.js:8 js/main.js:7
+msgid ""
+"Genera un resumen de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto en español: \n"
+"\n"
+msgstr ""
+"Genera un resumen de no más de 35 palabras o 300 caracteres sobre el "
+"siguiente texto en español: \n"
+"\n"
+
+#: js/classes/caip_ResumenP.js:10 js/main.js:7
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"resumen."
+msgstr ""
+"No hay ningún texto o contenido en la entrada con la que poder generar el "
+"resumen."
+
+#: js/classes/caip_Tag.js:8 js/main.js:8
+msgid ""
+"Una lista ordenada de 10 etiquetas sobre en siguiente texto:\n"
+"\n"
+msgstr ""
+"Una lista ordenada de 10 etiquetas sobre en siguiente texto:\n"
+"\n"
+
+#: js/classes/caip_Tag.js:13 js/main.js:8
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"tags."
+msgstr ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"tags."
+
+#: js/classes/caip_Titulo.js:5 js/main.js:12
+msgid ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"titulares."
+msgstr ""
+"No hay ningún texto o contenido en la entrada con la que poder generar los "
+"titulares."
+
+#: js/classes/caip_Titulo.js:13 js/main.js:13
+msgid "Generar más titulares"
+msgstr "Generar más titulares"
+
+#: js/classes/caip_Titulo.js:13 js/classes/tags.js:18 js/main.js:13
+#: js/main.js:19
+msgid "Generar más"
+msgstr "Generar más"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Inserta el título del post"
+msgstr "Inserta el título de la entrada"
+
+#: js/classes/caip_Titulo.js:14 js/main.js:13
+msgid "Insertar"
+msgstr "Insertar"
+
+#: js/classes/clickbait.js:10 js/main.js:15
+#, javascript-format
+msgid ""
+"Un listado de %d titulares estilo clickbait sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un listado de %d titulares estilo clickbait sobre el siguiente texto: \n"
+"\n"
+
+#: js/classes/resumen.js:20 js/main.js:15
+msgid "Regenerar resumen"
+msgstr "Regenerar resumen"
+
+#: js/classes/resumen.js:20 js/main.js:16
+msgid "Regenerar"
+msgstr "Regenerar"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt de la entrada"
+msgstr "Insertar en el extracto de la entrada"
+
+#: js/classes/resumen.js:21 js/main.js:16
+msgid "Insertar en el excerpt"
+msgstr "Insertar en el extracto"
+
+#: js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido de la entrada"
+msgstr "Insertar al principio del contenido de la entrada"
+
+#: js/classes/resumen.js:22 js/main.js:16
+msgid "Insertar al principio del contenido"
+msgstr "Insertar al principio del contenido"
+
+#: js/classes/resumen.js:23 js/main.js:17
+msgid "Copiar"
+msgstr "Copiar"
+
+#: js/classes/tags.js:18 js/main.js:19
+msgid "Generar más tags"
+msgstr "Generar más tags"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos los tags"
+msgstr "Insertar todos los tags"
+
+#: js/classes/tags.js:19 js/main.js:20
+msgid "Insertar todos"
+msgstr "Insertar todos"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar los tags seleccionados"
+msgstr "Insertar los tags seleccionados"
+
+#: js/classes/tags.js:20 js/main.js:20
+msgid "Insertar selección"
+msgstr "Insertar selección"
+
+#: js/classes/titular.js:10 js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un listado de %d titulares sobre el siguiente texto: \n"
+"\n"
+
+#: js/classes/titularcorto.js:10 js/main.js:21
+#, javascript-format
+msgid ""
+"Un listado de %d titulares muy cortos sobre el siguiente texto: \n"
+"\n"
+msgstr ""
+"Un listado de %d titulares muy cortos sobre el siguiente texto: \n"
+"\n"
+
+#: js/gutenberg.js:1
+msgid "Desactive el editor Gutenberg para disfrutar de Cibeles AI"
+msgstr "Desactive el editor Gutenberg para disfrutar de Cibeles AI"
+
+#: js/gutenberg.js:2
+msgid "Haga click aquí"
+msgstr "Haga click aquí"
+
+#: js/init_language.js:3
+msgid "__"
+msgstr "__"
+
+#: js/init_language.js:4
+msgctxt "_x_context"
+msgid "_x"
+msgstr "_x"
+
+#: js/init_language.js:5
+msgid "_n_single"
+msgid_plural "_n_plural"
+msgstr[0] "_n_single"
+msgstr[1] "_n_plural"
+
+#: js/init_language.js:6
+msgctxt "_nx_context"
+msgid "_nx_single"
+msgid_plural "_nx_plural"
+msgstr[0] "_nx_single"
+msgstr[1] "_nx_plural"
+
+#: options.php:19
+msgid ""
+"Asistente de redacción de entradas con inteligencia artificial para Wordpress"
+msgstr ""
+"Asistente de redacción de entradas con inteligencia artificial para Wordpress"
+
+#: options.php:35
+msgid "Cantidad de titulares generados"
+msgstr "Cantidad de titulares generados"
+
+#: options.php:43
+msgid "Cantidad de tags generados"
+msgstr "Cantidad de tags generados"
+
+#: options.php:133
+msgid "Puede adquirir más palabras en"
+msgstr "Puede adquirir más palabras en"
+
+#: views/buttons.php:8
+msgid "Generación titular"
+msgstr "Generación titular"
+
+#: views/buttons.php:9
+msgid "Titular"
+msgstr "Titular"
+
+#: views/buttons.php:15
+msgid "Generación titular corto"
+msgstr "Generación titular corto"
+
+#: views/buttons.php:16
+msgid "Titular corto"
+msgstr "Titular corto"
+
+#: views/buttons.php:22
+msgid "Generación clickbait"
+msgstr "Generación clickbait"
+
+#: views/buttons.php:23
+msgid "Clickbait"
+msgstr "Clickbait"
+
+#: views/buttons.php:34
+msgid "Generación tags"
+msgstr "Generación tags"
+
+#: views/buttons.php:35
+msgid "Tags"
+msgstr "Tags"
+
+#: views/buttons.php:41
+msgid "Generación tags automática"
+msgstr "Generación tags automática"
+
+#: views/buttons.php:42
+msgid "Autotags"
+msgstr "Autotags"
+
+#: views/buttons.php:52
+msgid "Generación resumen"
+msgstr "Generación resumen"
+
+#: views/buttons.php:53
+msgid "Resumen"
+msgstr "Resumen"
+
+#: views/buttons.php:58
+msgid "Generación excerpt automática"
+msgstr "Generación excerpt automática"
+
+#: views/buttons.php:59
+msgid "Autoexcerpt"
+msgstr "Autoextracto"
+
+#: views/thickbox/clickbait.php:5 views/thickbox/titular.php:5
+#: views/thickbox/titularcorto.php:5
+msgid "La generación de titulares se hace con el contenido de la entrada."
+msgstr "La generación de titulares se hace con el contenido de la entrada."
+
+#: views/thickbox/clickbait.php:6 views/thickbox/titular.php:6
+#: views/thickbox/titularcorto.php:6
+msgid "Elija uno de los siguientes titulares:"
+msgstr "Elija uno de los siguientes titulares:"
+
+#: views/thickbox/resumen.php:5
+msgid "La generación del resumen se hace con el contenido de la entrada."
+msgstr "La generación del resumen se hace con el contenido de la entrada."
+
+#: views/thickbox/tags.php:5
+msgid "La generación de tags se hace con el contenido de la entrada."
+msgstr "La generación de tags se hace con el contenido de la entrada."
+
+#: views/thickbox/tags.php:6
+msgid "Elija entre los siguientes tags:"
+msgstr "Elija entre los siguientes tags:"
+
+#. Plugin Name of the plugin/theme
+msgid "Cibeles AI"
+msgstr "Cibeles AI"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ai.cibeles.net/"
+msgstr "https://ai.cibeles.net/"
+
+#. Description of the plugin/theme
+msgid ""
+"Asistente de redacción de entradas de inteligencia artificial para Wordpress "
+"hecho por cibeles.net"
+msgstr ""
+"Asistente de redacción de entradas de inteligencia artificial para Wordpress "
+"hecho por cibeles.net"
+
+#. Author of the plugin/theme
+msgid "Cibeles.net"
+msgstr "Cibeles.net"
+
+#. Author URI of the plugin/theme
+msgid "https://www.cibeles.net/"
+msgstr "https://www.cibeles.net/"
+
+#~ msgid ""
+#~ "Configuración de Plugin de AI Cibeles - OpenAI y otros ajustes. (Uso del "
+#~ "modelo gpt-3.5-turbo). <br /><br />Tiene gratis 50.000 palabras. <br />\n"
+#~ "\t<strong>Palabras usadas: <span id=\"palabrasusadas\">0</span></strong> "
+#~ "<br />\n"
+#~ "\t<h2>Palabras disponibles: <span id=\"palabrasdisponibles\">0</span></"
+#~ "h2> <br />\n"
+#~ "\t"
+#~ msgstr ""
+#~ "Configuración de Plugin de AI Cibeles - OpenAI y otros ajustes. (Uso del "
+#~ "modelo gpt-3.5-turbo). <br /><br />Tiene gratis 50.000 palabras. <br />\n"
+#~ "\t<strong>Palabras usadas: <span id=\"palabrasusadas\">0</span></strong> "
+#~ "<br />\n"
+#~ "\t<h2>Palabras disponibles: <span id=\"palabrasdisponibles\">0</span></"
+#~ "h2> <br />\n"
+#~ "\t"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid ""
+#~ "Configuración de conexión de la API de Cibeles-OpenAI y otros ajustes. "
+#~ "(Uso del modelo text-davinci-003)."
+#~ msgstr ""
+#~ "Configuración de conexión de la API de Cibeles-OpenAI y otros ajustes. "
+#~ "(Uso del modelo gpt-3.5-turbo)."
+
+#, javascript-format
+#~ msgid ""
+#~ "Una lista ordenada de %d elementos que clasifique de manera genérica "
+#~ "marcas, personajes, categorías, temática, lugares, objetos, alimentos, "
+#~ "temáticas, instituciones, eventos, acciones, secciones, etc a modo de "
+#~ "etiquetas sobre los elementos más importantes o que más se repiten en el "
+#~ "siguiente texto: \n"
+#~ "\n"
+#~ msgstr ""
+#~ "Una lista ordenada de %d elementos que clasifique de manera genérica "
+#~ "marcas, personajes, categorías, temática, lugares, objetos, alimentos, "
+#~ "temáticas, instituciones, eventos, acciones, secciones, etc a modo de "
+#~ "etiquetas sobre los elementos más importantes o que más se repiten en el "
+#~ "siguiente texto: \n"
+#~ "\n"
+
+#, javascript-format
+#~ msgid ""
+#~ "Un listado de %d titulares muy largos o extensos sobre el siguiente "
+#~ "texto: \n"
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Un listado de %d titulares muy largos o extensos sobre el siguiente "
+#~ "texto: \n"
+#~ "\n"
+#~ "\n"
+
+#~ msgid "API KEY"
+#~ msgstr "API KEY"
+
+#~ msgid "Cantidad de resúmenes generados"
+#~ msgstr "Cantidad de resúmenes generados"
+
+#~ msgid "Elija entre los siguientes resúmenes:"
+#~ msgstr "Elija entre los siguientes resúmenes:"
+
+#~ msgid "Haciendo una prueba"
+#~ msgstr "Haciendo una prueba"
+
+#~ msgid "Haciendo otra prueba"
+#~ msgstr "Haciendo otra prueba"
+
+#~ msgid "Funciona o qué?"
+#~ msgstr "Funciona o qué?"
+
+#~ msgid ""
+#~ "Asistente de redacción de artículos de inteligencia artificial para "
+#~ "Wordpress"
+#~ msgstr ""
+#~ "Asistente de redacción de artículos de inteligencia artificial para "
+#~ "Wordpress"

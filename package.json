@@ -1,0 +1,13 @@
+{
+  "name": "cibeles-ai",
+  "version": "1.0.0",
+  "description": "=== CIBELES AI ===\r Contributors: borjaabad, soportecibeles\r Tags: artificial intelligence, journalists, ai integrated in wordpress, autotags, autoexcerpt, summary, headings, titles\r Requires at least: 4.9\r Tested up to: 6.2\r Requires PHP: 5.6\r Stable tag: 1.3.3\r License: GPLv2 or later\r License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diff-dom": "^5.0.4"
+  }
+}

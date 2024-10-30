@@ -1,0 +1,28 @@
+{
+  "name": "cibeles-ai",
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "cibeles-ai",
+      "version": "1.0.0",
+      "license": "ISC",
+      "dependencies": {
+        "diff-dom": "^5.0.4"
+      }
+    },
+    "node_modules/diff-dom": {
+      "version": "5.0.4",
+      "resolved": "https://registry.npmjs.org/diff-dom/-/diff-dom-5.0.4.tgz",
+      "integrity": "sha512-rULkvq6O9XSDpcysksQz6KFCfS5Vpa211lEAHh+apMu5hK2fcQYJ9DftMTN2rmDumEVVtgWq8JVhgIFknSMk9A=="
+    }
+  },
+  "dependencies": {
+    "diff-dom": {
+      "version": "5.0.4",
+      "resolved": "https://registry.npmjs.org/diff-dom/-/diff-dom-5.0.4.tgz",
+      "integrity": "sha512-rULkvq6O9XSDpcysksQz6KFCfS5Vpa211lEAHh+apMu5hK2fcQYJ9DftMTN2rmDumEVVtgWq8JVhgIFknSMk9A=="
+    }
+  }
+}
